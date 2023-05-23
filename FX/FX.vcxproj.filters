@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Asio">
+      <UniqueIdentifier>{ee4f3b21-f04d-4300-b619-294ea0c359b4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\Asio\asio.cpp">
+      <Filter>Asio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\Asio\asiodrivers.cpp">
+      <Filter>Asio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\Asio\asiolist.cpp">
+      <Filter>Asio</Filter>
+    </ClCompile>
+    <ClCompile Include="AsioMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fxobjects.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gltf_loader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\ThirdParty\Asio\asio.h">
+      <Filter>Asio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\Asio\asiodrivers.h">
+      <Filter>Asio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\Asio\asiolist.h">
+      <Filter>Asio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\Asio\asiosys.h">
+      <Filter>Asio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\Asio\ginclude.h">
+      <Filter>Asio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\Asio\iasiodrv.h">
+      <Filter>Asio</Filter>
+    </ClInclude>
+    <ClInclude Include="AsioMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fxobjects.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="filters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="valves.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gltf_loader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
