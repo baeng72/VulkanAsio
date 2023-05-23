@@ -2,9 +2,9 @@
 Asio enabled Vulkan app for guitar. WIP.<br/>
 You need an Asio driver (Windows I guess) and audio interface.<br/>
 Lot's of bit and pieces, various effects, save sound to file (saves to save.wave for now), click beat (snare drum, but changeable, one day it might grow up to be a metronome), nothing complete.<br/>
-If I ever continue it, I'll have some form of layout of "pedals" shown in the order you select the effects.
+If I ever continue it, I'll have some form of layout of "pedals" shown in the order you select the effects.<br/>
 This is very ugly at the moment, but the audio processing/Asio interface works, sort of. <br/>
-I haven't included 3rd party libraries, but to build this, you'll need tinygltf, stb, vma (vulkan memory allocator), asio sdk, dear imgui, spirv-reflect and of course, the Vulkan SDK.
+I haven't included 3rd party libraries, but to build this, you'll need tinygltf, stb, vma (vulkan memory allocator), asio sdk, dear imgui, spirv-reflect and of course, the Vulkan SDK.<br/>
 The audio processing (fxobjects.h) code is NOT mine but Will Pirkles. <br/>
 Available at: https://www.willpirkle.com/audiofxlab/ <br/>
 Asio code based on Steinbergs API.<br/>
